@@ -1,0 +1,220 @@
+<div>
+    <div id="menu">
+      <button mat-button (click)="historia()">Historia</button>
+      <button mat-button [matMenuTriggerFor]="horizonte">Horizonte Institucional</button>
+      <mat-menu #horizonte="matMenu">
+        <button mat-menu-item (click)="mision()">Misión</button>
+        <button mat-menu-item (click)="vision()">Visión</button>
+        <button mat-menu-item (click)="politica()">Política de Calidad</button>
+        <button mat-menu-item (click)="filosofia()">Filosofía</button>
+        <button mat-menu-item (click)="principios()">Principios</button>
+        <button mat-menu-item (click)="modelo()">Modelo Pedagógico</button>
+        <button mat-menu-item (click)="organigrama()">Organigrama</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="simbolos">Símbolos Institucionales</button>
+      <mat-menu #simbolos="matMenu">
+        <button mat-menu-item (click)="himno()">Himno</button>
+        <button mat-menu-item (click)="bandera()">Bandera</button>
+        <button mat-menu-item (click)="escudo()">Escudo</button>
+        <button mat-menu-item (click)="mascota()">Nuestra Mascota</button>
+      </mat-menu>
+      <button mat-button (click)="manual()">Manual de Convivencia</button>
+      <button mat-button (click)="mapa()">Mapa de Procesos</button>
+      <button mat-button (click)="anexos()">Anexos</button>
+    </div>
+    
+    <div id="historia">
+      <h1>Historia de la Institución</h1>
+      <h2>Reseña Histórica</h2>
+      <p>
+        Esta institución fue creada por el departamento del Valle del Cauca, dirigida y administrada por la gobernación, y su director, Antonio Meyemberg Vásquez y la coordinadora Alba Neiza Benjumea.
+        <br><br>
+        Creada por decreto No. 452 del 30 de diciembre de 1997 con el nombre de razón social Centro de Capacitación Popular de Adultos : “ALFONSO LÓPEZ PUMAREJO” con el decreto No. 1467 del 9 de noviembre de 2001, la Gobernación del Valle y la secretaria de Educación Departamental, ordena la creación de un centro docente y se modifica la planta de cargos financiada con el situado fiscal que le corresponde administrar, inicialmente a 16 docentes adjudicados por el traslado del gimnasio del pacifico de Tuluá y tres administrativos. En este tiempo queda como coordinadora encargada Alba Neisa Bengumea por el trascurso de un año, siendo reemplazada por el rector titular, Jaime García, quien cumple su periodo hasta el 2004, retirándose por jubilación y encargan nuevamente, de rectora a la Mag. Alba Neisa Bengumea. El centro docente, colegio Alfonso López Pumarejo comienza a funcionar en el año 2002 mediante decreto 01750 de septiembre 10 de 2002. Durante este año lectivo, inicia labores en las tres jornadas; mañana, tarde y noche en bachillerato diurno y nocturno.
+        <br><br>
+        Finalizando el 2003, mediante la Certificación el Municipio de Tuluá a través de la secretaria de Educación Municipal, incorpora el personal directivo, docentes y administrativos, entregado por la secretaria de Educación Departamental al municipio certificado de Tuluá. Le da una organización a la educación y es así como el colegio Alfonso López Pumarejo queda organizado con la fusión de las siguientes sedes: Central, María Josefa Hormaza, sindical Antonio Nariño, Juan del Corral, La Esperanza, Atanasio Girardot.
+        <br><br>
+        Con el decreto 212 del 30 de junio del 2004, dictado por el alcalde Juan Guillermo Vallego Ángel, adopta la planta global de cargos de las instituciones educativas pertinentes a la Secretaría de educación del Municipio certificado de Tuluá, oficialmente se articula como Institución Educativa Alfonso López Pumarejo.
+        <br><br>
+        El 15 de junio de 2005 mediante resolución 073 se le da a la institución el reconocimiento oficial. En agosto del 2005 fue nombrado por concurso como rector de la institución el ingeniero y Magister Gilberto Guzmán Dávila. A partir de este momento se inicia la conformación de la Banda Marcial de la institución y una campaña “Que bueno estar Aquí”, para lograr cambiar la mala imagen que se tenía en ese momento.
+        <br><br>
+        En el año 2006 se inicia con el modelo de Aceleración del Aprendizaje y GEEMPA. En el año 2008 dos nuevas sedes se integran a la institución: Juan María Marcelino Giliberth y Rubén Cruz Vélez. Y se da inicio al Programa Educación Formal de Jóvenes y Adultos “SOMOS TULUÁ” jornada Sabatina sede Rubén Cruz Vélez, actualmente funciona en la sede central.
+        <br><br>
+        A partir del año 2009 por el liderazgo del Rector se nota una población estudiantil más asequible ya que muchas actitudes han cambiado, gracias a esto los procesos se ven fortalecidos ya que se cuenta con un selecto grupo de colaboradores comprometidos en el mejoramiento institucional.
+        <br><br><br>
+        Colaborador: Libardo Bernal secretario de la institución.
+        <br>
+        (Tomado del periódico Institución Educativa Alfonso López Pumarejo. “Pumialdía”. primer edición – octubre 2015)
+      </p>
+    </div>
+    
+    <div id="mision" class="ocultar">
+      <h1>Misión</h1>
+      <img src="../assets/Img/mision.jpg" class="imgajus">
+      <p>
+        La Institución Alfonso López Pumarejo, ofrece un servicio educativo con criterios de inclusión educativa, que permita mejorar las condiciones de calidad en los niveles de preescolar, básica y media, de la población del noroccidente tulueño, que cumplen con lo dispuesto en la ley 115, orientando a los estudiantes hacia una formación con sentido humanista – dialogante, basada en el desarrollo de competencias laborales, cognitivas, ciudadanas y afectivas, con una modalidad técnica mixta en convenio con el SENA en tres programas: Venta de Productos y Servicios, Manejo de Residuos Sólidos y Sistemas.
+      </p>
+    </div>
+    
+    <div id="vision" class="ocultar">
+      <h1>Visión</h1>
+      <img src="../assets/Img/Vision.jpg" class="imgajus">
+      <p>
+        La Institución Educativa Alfonso López Pumarejo ofrecerá al año 2023, un servicio educativo de calidad en los niveles de preescolar, básica y media, que sea incluyente y contando con un equipo humano – dialogante, con el propósito de obtener la certificación bajo la norma ISO (versión 9001), continuando en articulación con el SENA, incluyendo otros convenios con universidades locales, en procura de formar seres humanos competentes, capaces de construir su propio proyecto de vida.
+      </p>
+    </div>
+    
+    <div id="politica" class="ocultar">
+      <h1>Política de Calidad</h1>
+      <img src="../assets/Img/Vision2.jpg" class="imgajus">
+      <p>
+        La Institución Educativa Alfonso López Pumarejo -Tuluá - Valle del Cauca, se compromete a ofrecer una educación de calidad enfocada en la formación de líderes emprendedores desde sus modalidades en Técnico en Negociación y Venta de Productos y Servicios y Técnico en Manejo Ambiental, con sentido social incluyente, reflejado en la construcción del proyecto de vida de sus egresados que interactúan en el sector productivo, laboral, social, ambiental y académico con buenos resultados en las pruebas ICFES y el desarrollo regional con proyectos productivos realizados.
+      </p>
+    </div>
+    
+    <div id="filosofia" class="ocultar">
+      <h1>Filosofía</h1>
+      <img src="../assets/Img/Filosofia.jpg" class="imgajus">
+      <p>
+        La Institución Educativa centra su filosofía en el reconocimiento del estudiante como un ser actuante, participativo e investigativo, con principios familiares que lo apoyan en la consecución de sus fines y objetivos gracias al direccionamiento que le otorga la modalidad técnica, formándolo de manera integral como un ser humanista, dador de valores éticos, morales, espirituales y religiosos que lo caracterizan e identifican en cualquier lugar donde se encuentre.
+      </p>
+    </div>
+    
+    <div id="principios" class="ocultar">
+      <h1>Principios Institucionales</h1>
+      <img src="../assets/Img/principios2.jpg" class="imgajus">
+      <p>
+        Se definen como principios institucionales o corporativos aquellos que identificarán al estudiante formado en nuestras aulas y que serán promovidos por la Comunidad Educativa en el desarrollo pedagógico así: 
+      </p>
+      <img src="../assets/Img/principios.png" class="imgajus">
+    </div>
+    
+    <div id="himno" class="ocultar">
+      <h1>Himno</h1>
+      <p>
+        El Himno      
+        <br>
+        <br>
+        I
+        <br>  
+        Estudiantes del Valle del Cauca
+        <br>  
+        Escuchad que nos llama la Ciencia
+        <br>  
+        Presurosos venid a las aulas
+        <br>  
+        Poseídos de amor sin igual.
+        <br> 
+        <br>  
+        II
+        <br>  
+        La Institución López Pumarejo que
+        <br>
+        cultura de sabios nos da
+        <br>
+        A los niños, al joven y aquellos De
+        <br>  
+        Colombia, Valle y Tuluá.
+        <br>  
+        <br>  
+        Coro
+        <br>  
+        Oh! Gloria siempre cantemos
+        <br>  
+        Nuestra voz sale del corazón
+        <br>  
+        Por la paz de todos luchamos
+        <br>  
+        Con paciencia, dignidad y amor.
+        <br>  
+        <br>  
+        III
+        <br>  
+        La Cultura, la ciencia y el arte
+        <br>  
+        Convivencia de afecto y amor,
+        <br>  
+        Son aspectos que aquí nos enseñan
+        <br>  
+        Y hacen parte de nuestra misión.
+        <br>  
+        <br>  
+        IV
+        <br>  
+        Viva, viva, digamos con gozo al plantel
+        <br>  
+        con orgullo y amor
+        <br>  
+        A los grandes maestros que enseñan
+        <br>  
+        Y que forman nuestra educación.
+        <br>  
+        <br>  
+        V
+        <br>  
+        Del futuro seremos orgullo
+        <br>  
+        Del mañana será esta niñez
+        <br>  
+        Convencidos de dar a la patria
+        <br>
+        Lo que hicimos en nuestro plantel.
+      </p>
+    </div>
+  
+    <div id="anexos" class="ocultar">
+      <h1>Anexos</h1>
+      <img src="../assets/Img/ESCUDO.jpg" class="imag">
+      <p>
+        A continuación se da a conocer muestras de los distintos documentos que emplea la institución educativa.
+      </p>
+      <a href="../assets/doc/Anexos.pdf" target="_blank">Descargar Anexos</a>
+    </div>
+  
+    <div id="mapa" class="ocultar">
+      <h1>Mapa de Procesos</h1>
+      <p>
+        A continuación se adjunta el debido mapa de procesos a seguir con los procedimientos institucionales.
+      </p>
+      <img src="../assets/Img/mapaProcesos.png" class="imgtotal">
+    </div>
+    
+    <div id="manual" class="ocultar">
+      <img src="../assets/Img/ESCUDO.jpg" class="imag">
+      <h1>Manual de Convivencia</h1>
+      <h2>SECRETARÍA DE EDUCACIÓN MUNICIPAL</h2>
+      <br>
+      <h3>RESOLUCION RECTORAL No 002</h3>
+      <p>
+        Por medio del cual se DEROGA el Manual de Convivencia publicado en 2016 y se ADOPTA un nuevo Manual de Convivencia escolar.
+        <br>
+        (2018) NOTA IMPORTANTE: Algunos puntos del manual de convivencia se encuentran bajo revisión, estos están subrayados.
+        <br>
+        <a href="../assets/doc/MANUAL_DE_CONVIVENCIA1.pdf" target="_blank">Descargar Manual de Convivencia</a>
+      </p>
+    </div>
+  
+    <div id="bandera" class="ocultar">
+      <h1>La Bandera</h1>
+      <img src="../assets/Img/BANDERA.JPG">
+    </div>
+  
+    <div id="escudo" class="ocultar">
+      <h1>Escudo</h1>
+      <img src="../assets/Img/ESCUDO.jpg" class="imag">
+    </div>
+  
+    <div id="mascota" class="ocultar">
+      <h1>Nuestra Mascota</h1>
+      <h2>Pumin</h2>
+      <img src="../assets/Img/Pumin.png" class="imgajus">
+    </div>
+  
+    <div id="modelo" class="ocultar">
+      <h1>modelo pedagógico</h1>
+    </div>
+  
+    <div id="organigrama" class="ocultar">
+      <h1>organigrama</h1>
+    </div>
+  
+  </div>

@@ -1,0 +1,21 @@
+#total
+{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.sub
+{
+    width: 35%;
+    padding: 1%;
+}
+
+#correo
+{
+    width: 25%;
+}
+
+#correo img
+{
+    width: 80%;
+}

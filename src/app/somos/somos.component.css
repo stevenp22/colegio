@@ -1,0 +1,36 @@
+#historia
+{
+    padding: 5%;
+    text-align: center;
+}
+
+.ocultar
+{
+    display: none;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.imag
+{
+    height: 200px;
+    width: 300px;
+}
+
+.imgtotal
+{
+    height: 100%;
+    width: 100%;
+}
+
+#bandera img
+{
+    height: 500px;
+    width: 200px;
+}
+
+.imgajus
+{
+    max-width: 100%;
+}

@@ -1,0 +1,16 @@
+#total
+{
+    width: 100%;
+}
+
+.sub
+{
+    float: left;
+    padding: 1% 5%;
+}
+
+.sub img
+{
+    height: 250px;
+    width: 200px;
+}

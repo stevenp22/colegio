@@ -1,0 +1,71 @@
+<div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+            <span>Inicio</span>
+        </button>
+        <button mat-menu-item>
+            <span>¿Quiénes somos?</span>
+        </button>
+        <button mat-menu-item>
+            <span>Servicios</span>
+        </button>
+        <button mat-menu-item>
+            <span>Servicios</span>
+        </button>
+        <button mat-menu-item>
+            <span>Secretaria</span>
+        </button>
+        <button mat-menu-item [matMenuTriggerFor]="sedes">
+            <span>Sedes</span>
+        </button>
+        <mat-menu #sedes="matMenu">
+            <button mat-menu-item>Central</button>
+            <button mat-menu-item>Atanasio Girardot</button>
+            <button mat-menu-item>Maria Josefa Hormaza</button>
+            <button mat-menu-item>Juan del Corral</button>
+            <button mat-menu-item>Sindical Antonio Nariño</button>
+            <button mat-menu-item>Rubén Cruz Vélez</button>
+            <button mat-menu-item>Juan Maria Marcelino Gilibert</button>
+            <button mat-menu-item>La Esperanza</button>
+        </mat-menu>
+        <button mat-menu-item [matMenuTriggerFor]="talento">
+            <span>Talento humano</span>
+        </button>
+        <mat-menu #talento="matMenu">
+            <button mat-menu-item>Docentes</button>
+            <button mat-menu-item>Directivos</button>
+            <button mat-menu-item>Administrativos</button>
+        </mat-menu>
+        <button mat-menu-item [matMenuTriggerFor]="estudiantes">
+            <span>Estudiantes</span>
+        </button>
+        <mat-menu #estudiantes="matMenu">
+            <button mat-menu-item>Personero</button>
+            <button mat-menu-item>Pruebas Saber</button>
+            <button mat-menu-item>Mi Boletin</button>
+            <button mat-menu-item>Egresados</button>
+            <button mat-menu-item>Encuesta</button>
+            <button mat-menu-item>Ebooks</button>
+            <button mat-menu-item>Departamento</button>
+        </mat-menu>
+        <button mat-menu-item [matMenuTriggerFor]="gestiones">
+            <span>Gestiones</span>
+        </button>
+        <mat-menu #gestiones="matMenu">
+            <button mat-menu-item>Académica</button>
+            <button mat-menu-item>Administrativa</button>
+            <button mat-menu-item>Calidad</button>
+            <button mat-menu-item>Comunidad</button>
+            <button mat-menu-item>Directiva</button>
+        </mat-menu>
+        <button mat-menu-item>
+            <span>Plan convivencia</span>
+        </button>
+        <button mat-menu-item>
+            <span>Contacto institucional</span>
+        </button>
+    </mat-menu>
+</div>
